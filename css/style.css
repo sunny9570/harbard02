@@ -370,7 +370,7 @@
 
 .main_contents .inner .eyecontent_box:hover .txt {
     background: #444;
-
+    transition: 0.5s;
 }
 
 .main_contents .inner .txt strong {
@@ -385,6 +385,7 @@
 
 .main_contents .inner .eyecontent_box:hover .txt strong {
     color: #fff;
+    transition: 0.5s;
 }
 
 .main_contents .inner .txt p {
@@ -396,6 +397,7 @@
 
 .main_contents .inner .eyecontent_box:hover .txt p {
     color: #fff;
+    transition: 0.5s;
 }
 
 .main_contents .inner .txt em {
@@ -408,6 +410,7 @@
 
 .main_contents .inner .eyecontent_box:hover .txt em {
     color: #fff;
+    transition: 0.5s;
 }
 
 .main_contents .inner .txt i {
@@ -812,6 +815,8 @@
     padding: 200px 0;
 }
 
+
+
 .main_tab .tab_menu {
     display: flex;
     margin-bottom: 40px;
@@ -835,6 +840,10 @@
     color: #575757;
 }
 
+.main_tab .tab_content>ul>li {
+    display: flex;
+}
+
 .main_tab .tab_content ul li {
     display: none;
 }
@@ -842,4 +851,11 @@
 
 .main_tab .tab_content ul li.on {
     display: block;
+}
+
+
+
+
+.footer .ft .list_box {
+    display: flex;
 }
